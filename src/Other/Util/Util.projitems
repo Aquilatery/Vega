@@ -3,9 +3,12 @@
   <PropertyGroup>
     <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
     <HasSharedItems>true</HasSharedItems>
-    <SharedGUID>bf714fed-09b7-4c23-ba48-d7ebdfcdb010</SharedGUID>
+    <SharedGUID>89dcc9dd-c705-439d-9f45-2a3389116491</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>Desktop</Import_RootNamespace>
+    <Import_RootNamespace>Util</Import_RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Aligner.cs" />
+  </ItemGroup>
 </Project>

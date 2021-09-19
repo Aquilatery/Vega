@@ -78,6 +78,9 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <Import Project="..\Other\Util\Util.projitems" Label="Shared" />
+  <Import Project="..\Other\Helper\Helper.projitems" Label="Shared" />
+  <Import Project="..\Shared\Splash\Splash.projitems" Label="Shared" />
   <Import Project="..\Shared\Taskbar\Taskbar.projitems" Label="Shared" />
   <Import Project="..\Shared\Setting\Setting.projitems" Label="Shared" />
   <Import Project="..\Shared\Desktop\Desktop.projitems" Label="Shared" />
