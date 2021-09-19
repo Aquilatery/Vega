@@ -3,21 +3,50 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vega", "Vega\Vega.csproj", "{8DA02813-A6D5-4054-8430-3B085C47EE12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vega", "Vega\Vega.csproj", "{8DA02813-A6D5-4054-8430-3B085C47EE12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{25DF25E4-2242-47D6-A089-760FC1E1F199}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{CED7D9FA-4F23-444F-B846-289D92F73EFD}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Taskbar", "Shared\Taskbar\Taskbar.shproj", "{9604F3BA-D157-4309-8271-8436F72E8439}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Desktop", "Shared\Desktop\Desktop.shproj", "{BF714FED-09B7-4C23-BA48-D7EBDFCDB010}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Setting", "Shared\Setting\Setting.shproj", "{FF1D49EA-001D-4085-A2A3-67B62BF5DF1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other", "Other", "{3C461749-591B-4FD2-8095-94CB6C69F7A4}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Shared\Desktop\Desktop.projitems*{8da02813-a6d5-4054-8430-3b085c47ee12}*SharedItemsImports = 5
+		Shared\Setting\Setting.projitems*{8da02813-a6d5-4054-8430-3b085c47ee12}*SharedItemsImports = 5
+		Shared\Taskbar\Taskbar.projitems*{8da02813-a6d5-4054-8430-3b085c47ee12}*SharedItemsImports = 5
+		Shared\Taskbar\Taskbar.projitems*{9604f3ba-d157-4309-8271-8436f72e8439}*SharedItemsImports = 13
+		Shared\Desktop\Desktop.projitems*{bf714fed-09b7-4c23-ba48-d7ebdfcdb010}*SharedItemsImports = 13
+		Shared\Setting\Setting.projitems*{ff1d49ea-001d-4085-a2a3-67b62bf5df1d}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		GitHub|Any CPU = GitHub|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8DA02813-A6D5-4054-8430-3B085C47EE12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8DA02813-A6D5-4054-8430-3B085C47EE12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA02813-A6D5-4054-8430-3B085C47EE12}.GitHub|Any CPU.ActiveCfg = GitHub|Any CPU
+		{8DA02813-A6D5-4054-8430-3B085C47EE12}.GitHub|Any CPU.Build.0 = GitHub|Any CPU
 		{8DA02813-A6D5-4054-8430-3B085C47EE12}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DA02813-A6D5-4054-8430-3B085C47EE12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8DA02813-A6D5-4054-8430-3B085C47EE12} = {25DF25E4-2242-47D6-A089-760FC1E1F199}
+		{9604F3BA-D157-4309-8271-8436F72E8439} = {CED7D9FA-4F23-444F-B846-289D92F73EFD}
+		{BF714FED-09B7-4C23-BA48-D7EBDFCDB010} = {CED7D9FA-4F23-444F-B846-289D92F73EFD}
+		{FF1D49EA-001D-4085-A2A3-67B62BF5DF1D} = {CED7D9FA-4F23-444F-B846-289D92F73EFD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {78FA2A48-DB64-44BD-8CE0-C10E89D0DB0D}
