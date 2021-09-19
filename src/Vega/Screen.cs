@@ -18,8 +18,6 @@ namespace Vega
             Size = new Size(Resolution.BoundsWidth, Resolution.BoundsHeight);
 
             Aligner.TopLeft(this, this);
-
-            Opacity = 1D;
         }
 
         private void Screen_FormClosing(object sender, FormClosingEventArgs e)

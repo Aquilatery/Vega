@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using Helper;
+using System.Windows.Forms;
 
 namespace Util
 {
@@ -6,47 +7,47 @@ namespace Util
     {
         public static void Center(Control BaseControl, Control TargetControl)
         {
-            TargetControl.Location = Helper.Alignment.Center(BaseControl, TargetControl);
+            TargetControl.Location = Alignment.Center(BaseControl, TargetControl);
         }
 
         public static void CenterLeft(Control BaseControl, Control TargetControl)
         {
-            TargetControl.Location = Helper.Alignment.CenterLeft(BaseControl, TargetControl);
+            TargetControl.Location = Alignment.CenterLeft(BaseControl, TargetControl);
         }
 
         public static void CenterRight(Control BaseControl, Control TargetControl)
         {
-            TargetControl.Location = Helper.Alignment.CenterRight(BaseControl, TargetControl);
+            TargetControl.Location = Alignment.CenterRight(BaseControl, TargetControl);
         }
 
         public static void TopCenter(Control BaseControl, Control TargetControl)
         {
-            TargetControl.Location = Helper.Alignment.TopCenter(BaseControl, TargetControl);
+            TargetControl.Location = Alignment.TopCenter(BaseControl, TargetControl);
         }
 
         public static void TopLeft(Control BaseControl, Control TargetControl)
         {
-            TargetControl.Location = Helper.Alignment.TopLeft(BaseControl, TargetControl);
+            TargetControl.Location = Alignment.TopLeft(BaseControl, TargetControl);
         }
 
         public static void TopRight(Control BaseControl, Control TargetControl)
         {
-            TargetControl.Location = Helper.Alignment.TopRight(BaseControl, TargetControl);
+            TargetControl.Location = Alignment.TopRight(BaseControl, TargetControl);
         }
 
         public static void BottomCenter(Control BaseControl, Control TargetControl)
         {
-            TargetControl.Location = Helper.Alignment.BottomCenter(BaseControl, TargetControl);
+            TargetControl.Location = Alignment.BottomCenter(BaseControl, TargetControl);
         }
 
         public static void BottomLeft(Control BaseControl, Control TargetControl)
         {
-            TargetControl.Location = Helper.Alignment.BottomLeft(BaseControl, TargetControl);
+            TargetControl.Location = Alignment.BottomLeft(BaseControl, TargetControl);
         }
 
         public static void BottomRight(Control BaseControl, Control TargetControl)
         {
-            TargetControl.Location = Helper.Alignment.BottomRight(BaseControl, TargetControl);
+            TargetControl.Location = Alignment.BottomRight(BaseControl, TargetControl);
         }
     }
 }

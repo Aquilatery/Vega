@@ -16,8 +16,7 @@ namespace Vega
 #endif
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            new Loading().Show();
-            Application.Run(new Screen());
+            Application.Run(new Loading());
         }
     }
 }

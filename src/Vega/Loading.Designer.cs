@@ -29,8 +29,10 @@ namespace Vega
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Loading));
             this.parrotCircleProgressBar1 = new ReaLTaiizor.Controls.ParrotCircleProgressBar();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // parrotCircleProgressBar1
@@ -59,6 +61,12 @@ namespace Vega
             this.parrotCircleProgressBar1.UnFilledColor = System.Drawing.Color.FromArgb(((int)(((byte)(114)))), ((int)(((byte)(114)))), ((int)(((byte)(114)))));
             this.parrotCircleProgressBar1.UnfilledThickness = 24;
             // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 5000;
+            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
+            // 
             // Loading
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -85,5 +93,6 @@ namespace Vega
 
         #endregion
         private ReaLTaiizor.Controls.ParrotCircleProgressBar parrotCircleProgressBar1;
+        private System.Windows.Forms.Timer timer1;
     }
 }

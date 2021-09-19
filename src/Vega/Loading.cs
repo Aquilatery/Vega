@@ -26,5 +26,14 @@ namespace Vega
         {
             //e.Cancel = true;
         }
+
+        private void Timer1_Tick(object sender, EventArgs e)
+        {
+            timer1.Stop();
+
+            new Screen().ShowDialog();
+
+            Opacity = 0D;
+        }
     }
 }

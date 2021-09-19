@@ -8,15 +8,4 @@
   <PropertyGroup Label="Configuration">
     <Import_RootNamespace>Splash</Import_RootNamespace>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)Loading.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Loading.Designer.cs">
-      <DependentUpon>Loading.cs</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Loading.resx">
-      <DependentUpon>Loading.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
 </Project>
