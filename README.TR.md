@@ -7,7 +7,7 @@
 ![IDE-Version](https://img.shields.io/badge/IDE-VS2019-blue.svg)
 
 # Vega'a Hoşgeldiniz
-Vega bir Bildirim Yönetme kütüphanesidir. Sunduğu çeşitli bildirim tipleriyle kolaylık sağlar.
+Vega bir Windows Gezginidir. Sunduğu çeşitli yenilikler ile kolaylık sağlar.
 
 ## Katkıda Bulunanlar
 
@@ -62,4 +62,4 @@ Adım 2：Yönetmelerin tadını çıkarın
 
 ### Vega
 
-[![Vega](https://raw.githubusercontent.com/Soferity/Vega/develop/.screenshots/Vega.png)](https://github.com/Soferity/Vega/tree/develop/Vega "Vega")
+[![Vega](https://raw.githubusercontent.com/Soferity/Vega/develop/.screenshots/Vega.png)](https://github.com/Soferity/Vega/tree/develop/src/Vega "Vega")

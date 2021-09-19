@@ -7,7 +7,7 @@
 ![IDE-Version](https://img.shields.io/badge/IDE-VS2019-blue.svg)
 
 # Welcome to Vega
-Vega is a Notification Management library. It provides convenience with the various types of notifications it offers.
+Vega is a Windows Explorer. It provides convenience with various innovations it offers.
 
 ## Contributors
 
@@ -62,4 +62,4 @@ Step 2：Enjoy manages
 
 ### Vega
 
-[![Vega](https://raw.githubusercontent.com/Soferity/Vega/develop/.screenshots/Vega.png)](https://github.com/Soferity/Vega/tree/develop/Vega "Vega")
+[![Vega](https://raw.githubusercontent.com/Soferity/Vega/develop/.screenshots/Vega.png)](https://github.com/Soferity/Vega/tree/develop/src/Vega "Vega")
