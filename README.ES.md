@@ -62,4 +62,4 @@ Paso 2：Disfruta de las gestiones
 
 ### Vega
 
-[![Vega](https://raw.githubusercontent.com/Soferity/Vega/develop/.screenshots/Vega.png)](https://github.com/Soferity/Vega/tree/develop/src/Vega "Vega")
+[![Vega](https://raw.githubusercontent.com/Soferity/Vega/develop/.screenshots/Vega.png)](https://github.com/Soferity/Vega/tree/develop/src "Vega")
