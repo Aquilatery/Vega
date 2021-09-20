@@ -46,10 +46,6 @@
   <ItemGroup Condition="'$(Configuration)|$(Platform)'=='GitHub|AnyCPU'">
     <PackageReference Include="System.Resources.Extensions" Version="6.0.0-rc.1.21451.13" />
   </ItemGroup>
-
-  <ItemGroup>
-    <AppConfigWithTargetPath Remove="App.net48.config" />
-  </ItemGroup>
   
   <ItemGroup>
     <AppConfigWithTargetPath Include="App.$(TargetFramework).config">
@@ -78,6 +74,7 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <Import Project="..\Other\Enum\Enum.projitems" Label="Shared" />
   <Import Project="..\Other\Util\Util.projitems" Label="Shared" />
   <Import Project="..\Other\Helper\Helper.projitems" Label="Shared" />
   <Import Project="..\Shared\Splash\Splash.projitems" Label="Shared" />

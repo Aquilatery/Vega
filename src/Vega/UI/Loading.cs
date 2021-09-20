@@ -1,10 +1,12 @@
 ﻿using Helper;
+using Setting;
 using System;
+using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 using Util;
 
-namespace Vega
+namespace Vega.UI
 {
     public partial class Loading : Form
     {
@@ -20,20 +22,16 @@ namespace Vega
             Aligner.TopLeft(this, this);
 
             Aligner.Center(this, parrotCircleProgressBar1);
+
+            new Screen().Show();
         }
 
         private void Loading_FormClosing(object sender, FormClosingEventArgs e)
         {
-            //e.Cancel = true;
-        }
-
-        private void Timer1_Tick(object sender, EventArgs e)
-        {
-            timer1.Stop();
-
-            new Screen().ShowDialog();
-
-            Opacity = 0D;
+            if (!Variable.Exit)
+            {
+                e.Cancel = true;
+            }
         }
     }
 }

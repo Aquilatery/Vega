@@ -10,6 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Alignment.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Language.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resolution.cs" />
   </ItemGroup>
 </Project>

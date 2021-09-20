@@ -3,13 +3,12 @@
   <PropertyGroup>
     <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
     <HasSharedItems>true</HasSharedItems>
-    <SharedGUID>89dcc9dd-c705-439d-9f45-2a3389116491</SharedGUID>
+    <SharedGUID>80e9e36b-5118-4d67-94a6-99333ee0df1e</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>Util</Import_RootNamespace>
+    <Import_RootNamespace>Enum</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)Aligner.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Changer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Enum.cs" />
   </ItemGroup>
 </Project>

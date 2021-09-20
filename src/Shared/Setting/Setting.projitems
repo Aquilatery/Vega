@@ -9,5 +9,7 @@
     <Import_RootNamespace>Setting</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Constant.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Variable.cs" />
   </ItemGroup>
 </Project>
