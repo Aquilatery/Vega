@@ -47,10 +47,10 @@ namespace Vega.UC
             switch (Variable.TaskbarAlignment)
             {
                 case TaskbarAlignment.Left:
-                    parrotPictureBox1.Location = new Point(8, 8);
+                    flowLayoutPanel1.Location = new Point(8, 8);
                     break;
                 default:
-                    Aligner.Center(panel1, parrotPictureBox1);
+                    Aligner.Center(panel1, flowLayoutPanel1);
                     break;
             }
         }

@@ -124,10 +124,25 @@
   <data name="Computer" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Computer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="FileExplorer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\FileExplorer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ICO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\ICO.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Settings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Settings.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Windows" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Assets\Windows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Windows11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Windows11Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\Windows11Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WindowsTerminal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Assets\WindowsTerminal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
