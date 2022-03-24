@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <UseWindowsForms>true</UseWindowsForms>
     <!--<TargetFramework>net6.0-windows</TargetFramework>-->
-    <TargetFrameworks>net48;netcoreapp3.1-windows;net6.0-windows</TargetFrameworks>
+    <TargetFrameworks>net48;netcoreapp3.1-windows;net6.0-windows;net7.0-windows</TargetFrameworks>
     <ApplicationIcon>Assets\ICO.ico</ApplicationIcon>
     <StartupObject>Vega.Vega</StartupObject>
     <Company>Soferity LLC</Company>
