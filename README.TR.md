@@ -24,7 +24,7 @@ Bu harika insanlara teşekkürler ([emoji anahtarı](https://allcontributors.org
 			</sub>
 		</a>
 		<br/>
-		<a href="https://github.com/Soferity/Vega/commits?author=Taiizor" title="Kodlama">💻</a>
+		<a href="https://github.com/Aquilatery/Vega/commits?author=Taiizor" title="Kodlama">💻</a>
 		<a href="https://www.vegalya.com" title="Fikirler & Planlama, Geri Bildirim">🤔</a>
 	</td>
   </tr>
@@ -62,4 +62,4 @@ Adım 2：Yönetmelerin tadını çıkarın
 
 ### Vega
 
-[![Vega](.screenshots/Vega.png)](https://github.com/Aquilatery/Vega/tree/develop/src "Vega")
+[![Vega](.screenshots/Vega.png)](src "Vega")

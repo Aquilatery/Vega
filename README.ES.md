@@ -24,7 +24,7 @@ Gracias a estas personas maravillosas ([emoji clave](https://allcontributors.org
 			</sub>
 		</a>
 		<br/>
-		<a href="https://github.com/Soferity/Vega/commits?author=Taiizor" title="Código">💻</a>
+		<a href="https://github.com/Aquilatery/Vega/commits?author=Taiizor" title="Código">💻</a>
 		<a href="https://www.vegalya.com" title="Ideas & Planificación, Comentarios">🤔</a>
 	</td>
   </tr>
@@ -62,4 +62,4 @@ Paso 2：Disfruta de las gestiones
 
 ### Vega
 
-[![Vega](.screenshots/Vega.png)](https://github.com/Aquilatery/Vega/tree/develop/src "Vega")
+[![Vega](.screenshots/Vega.png)](src "Vega")
