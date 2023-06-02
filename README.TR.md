@@ -1,4 +1,4 @@
-![Logo](https://raw.githubusercontent.com/Soferity/Vega/develop/.images/Logo.png)
+![Logo](.images/Logo.png)
 
 ![Dot-Net-Framework-Version](https://img.shields.io/badge/.NET%20Framework-%3E%3D4.8-blue)
 ![Dot-Net-Core-Version](https://img.shields.io/badge/.NET%20Core-%3E%3D3.1-blue)
@@ -25,7 +25,7 @@ Bu harika insanlara teşekkürler ([emoji anahtarı](https://allcontributors.org
 		</a>
 		<br/>
 		<a href="https://github.com/Soferity/Vega/commits?author=Taiizor" title="Kodlama">💻</a>
-		<a href="https://www.taiizor.com" title="Fikirler & Planlama, Geri Bildirim">🤔</a>
+		<a href="https://www.vegalya.com" title="Fikirler & Planlama, Geri Bildirim">🤔</a>
 	</td>
   </tr>
 </table>
@@ -62,4 +62,4 @@ Adım 2：Yönetmelerin tadını çıkarın
 
 ### Vega
 
-[![Vega](https://raw.githubusercontent.com/Soferity/Vega/develop/.screenshots/Vega.png)](https://github.com/Soferity/Vega/tree/develop/src "Vega")
+[![Vega](.screenshots/Vega.png)](https://github.com/Aquilatery/Vega/tree/develop/src "Vega")
